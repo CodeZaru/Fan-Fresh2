@@ -1,14 +1,21 @@
 {
   "name": "fanfresh",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeZaru/Fan-Fresh2.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeZaru/Fan-Fresh2/issues"
+  },
+  "homepage": "https://github.com/CodeZaru/Fan-Fresh2#readme",
   "dependencies": {
     "bcrypt": "1.0.3",
     "bcrypt-nodejs": "0.0.3",
@@ -27,5 +34,6 @@
     "passport-local": "1.0.0",
     "prompt": "^1.0.0",
     "sequelize": "^4.24.0"
-  }
+  },
+  "devDependencies": {}  
 }

@@ -1,0 +1,71 @@
+h1 {
+  font-size: 40px;
+  font-weight: 400;
+  color: #012d41;
+}
+h1 .flip {
+  display: inline-block;
+  position: relative;
+  width: 300px;
+  height: 40px;
+  position: relative;
+  top: 5px;
+  -moz-perspective: 500;
+  -webkit-perspective: 500;
+  perspective: 500;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+h1 .flip span {
+  display: block;
+  width: auto;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  -moz-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  -webkit-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+  -moz-transform: rotateX(90deg);
+  -ms-transform: rotateX(90deg);
+  -webkit-transform: rotateX(90deg);
+  transform: rotateX(90deg);
+  position: absolute;
+  top: -20px;
+  left: 0;
+}
+h1 .flip span.set {
+  top: 0;
+  opacity: 1;
+  -moz-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  -webkit-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+  -moz-transform: rotateX(0deg);
+  -ms-transform: rotateX(0deg);
+  -webkit-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+h1 .flip span.down {
+  top: 40px;
+  opacity: 0;
+  -moz-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  -webkit-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+  -moz-transform: rotateX(-90deg);
+  -ms-transform: rotateX(-90deg);
+  -webkit-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+}
+
+.test { 
+  width: 200px;
+  height: 260px;
+  position: relative;
+  perspective: 800px;
+}

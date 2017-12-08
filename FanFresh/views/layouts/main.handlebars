@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Fan Fresh</title>
+        <link href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans:300,400,700" rel="stylesheet">
+        <link rel="shortcut icon" href="public/img/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="../public/img/favicon.ico" type="image/x-icon">
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+        <!--Import Our CSS-->
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/reset.css">
+        <link rel="stylesheet" href="/css/textFLip.css">
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+	<body>
+        <main>
+            <!--Page Borders-->
+            <div id="left"></div>
+            <div id="right"></div>
+            <div id="top"></div>
+            <div id="bottom"></div>
+            {{{ body }}}
+        </main>  
+        
+        <footer>
+          <div class="footer">
+            <div class="container">
+                <div class="footer-text copyright">
+                    Copyright MAK &#169;
+                </div>
+                <div class="footer-text top-artists">
+                    <a id="go-to-top" href="/top">Check out the top artists.</a>
+                </div>
+            </div>
+          </div>
+        <!--Import Firebase-->
+        <script src="https://www.gstatic.com/firebasejs/4.3.1/firebase.js"></script>
+        <!--Import Jquery-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+         <!--Import Materialize scripts-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+        <!--Import our scripts-->
+        <script src="/js/script.js"></script>
+        <script src="/js/firebase.js"></script>
+            
+        <!-- CLOSED BY AMY TEMPORARILY 
+        <script src="/js/ytSearch.js"></script>
+        <script src="https://apis.google.com/js/client.js?onload=init"></script> -->
+            
+        <!---Initalize materialize's form animation function-->
+        <script>
+        $(document).ready(function() {
+            Materialize.updateTextFields();
+            $('.modal').modal();
+        });
+        </script>
+        </footer>
+    </body>
+</html>

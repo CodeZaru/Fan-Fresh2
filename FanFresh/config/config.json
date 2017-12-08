@@ -1,0 +1,45 @@
+{
+ 
+    "development": {
+    
+        "username": "kevin",
+        "password": "gwbootcamp",
+        "port": 3307,
+ 
+        "database": "sequelize_passport",
+ 
+        "host": "localhost",
+ 
+        "dialect": "mysql"
+ 
+    },
+ 
+    "test": {
+ 
+        "username": "",
+ 
+        "password": null,
+ 
+        "database": "",
+ 
+        "host": "",
+ 
+        "dialect": "mysql"
+ 
+    },
+ 
+    "production": {
+ 
+        "username": "",
+ 
+        "password": null,
+ 
+        "database": "",
+ 
+        "host": "127.0.0.1",
+ 
+        "dialect": "mysql"
+ 
+    }
+ 
+}

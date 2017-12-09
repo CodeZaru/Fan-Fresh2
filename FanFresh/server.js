@@ -20,6 +20,8 @@ var PORT = 3000;
 app.use(express.static('public'));
 
 
+app.use(express.favicon());
+
 // Sets up the Express app to handle data parsing
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
@@ -59,7 +61,7 @@ app.get("/home", function(req, res) {
 
 //////////////////////////////////////////////////////////////////
 //heroku test
-
+/*
 var sequelize = require('../index').connect();
 
 if (sequelize)
@@ -83,7 +85,7 @@ else
 {
     console.log('No environnement variable found.');
 }
-
+*/
 /////////////////////////////////
 
 //Models

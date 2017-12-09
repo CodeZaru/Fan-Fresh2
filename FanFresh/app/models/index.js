@@ -10,7 +10,7 @@ var db = {};
  
  //added for heroku begin
  if (process.env.JAWSDB_URL) {
-    connection = mysql.createConnection(process.env.JAWSDB_URL);
+    connection = Sequelize.createConnection(process.env.JAWSDB_URL);
 } else {
     var sequelize = new Sequelize(config.database, config.username, config.password, config);
 }

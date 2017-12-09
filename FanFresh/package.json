@@ -28,7 +28,7 @@
     "passport-local": "^1.0.0",
     "prompt": "^1.0.0",
     "sequelize": "^4.27.0",
+    "sequelize-heroku": "^1.0.0",
     "serve-favicon": "^2.4.5"
   }
-
 }

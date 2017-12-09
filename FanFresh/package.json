@@ -29,5 +29,10 @@
     "prompt": "^1.0.0",
     "sequelize": "^4.27.0",
     "serve-favicon": "^2.4.5"
-  }
+  },
+ "scripts": {
+    "start": "cross-env NODE_ENV=production node compiled/server.js",
+    "heroku-postbuild": "npm run build"
+}
+
 }

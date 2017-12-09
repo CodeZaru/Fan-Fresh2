@@ -20,7 +20,7 @@ var PORT = 3000;
 app.use(express.static('public'));
 
 
-app.use(express.favicon());
+//app.use(express.favicon());
 
 // Sets up the Express app to handle data parsing
 app.use(bodyParser.urlencoded({ extended: true }));
